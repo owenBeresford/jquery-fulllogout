@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html lang="en-GB-oed" class="ie6 noJS" itemscope itemtype="http://schema.org/Article"> <![endif]-->
+<!--[if IE 7]>         <html lang="en-GB-oed" class="ie7 noJS" itemscope itemtype="http://schema.org/Article"> <![endif]-->
+<!--[if IE 8]>         <html lang="en-GB-oed" class="ie8 noJS" itemscope itemtype="http://schema.org/Article"> <![endif]-->
+<!--[if IE 9]>         <html lang="en-GB-oed" class="ie9 noJS" itemscope itemtype="http://schema.org/Article"> <![endif]-->
+<!--[if gt IE 9]><!--> <html lang="en-GB-oed" class="noJS" itemscope itemtype="http://schema.org/Article"> <!--<![endif]-->
+<head>
+<title>Full logout test 01</title>
+<meta http-equiv="X-UA-Compatible" content="IE=9" />
+<meta name="viewport" content="width=device-width, maximum-scale=1.0" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Language" content="en-GB-oed" />
+<meta name="Generator" content="iceline webkit 2.1" />
+<meta name="Author" content="Owen Beresford" />
+
+<link rel="stylesheet" type="text/css" href="http://owenberesford.me.uk/resource/reach-positional" />
+<script type="text/javascript" src="http://owenberesford.me.uk/asset/jquery-1.11.1" ></script>
+<script type="text/javascript" src="../script/jquery-full-logout.js" ></script>
+<script>
+let f2=function() {
+	window.open('./sample01.html');
+	return false;
+};
+let f3=function() {
+	window.TEST.obj.logout();
+	return false;
+};
+
+let f1=function() {
+	$('#openNew').on('click touch keypress', f2);
+	$('#closeAll').on('click touch keypress', f3);
+	window.TEST={obj:$('body').fullLogout({domain:"ffgdf"})};
+};
+$('body').ready(f1);
+</script>
+</head>
+<body id="body">
+<div class="h4_page">
+<div class="after_menu">
+<main id="main">
+<article>
+<div class="blocker">
+<div class="fewWords">
+<a id="openNew" href="#" class="button">open a new tab</a>&nbsp; &nbsp;
+<a id="closeAll" href="#" class="button">close all tabs</a>&nbsp; &nbsp;
+
+</div>
+</div>
+</article>
+</main>
+</div>
+<br />
+</div>
+<fieldset class="outer_menu">
+<legend></legend>
+<h1>Full logout test 01</h1>
+</fieldset>
+<nav>
+<fieldset class="h4_menu">
+<br />
+
+</fieldset>
+</nav>
+<br />
+</div>
+</fieldset>
+
+<br class="blocker" />
+<footer>
+<div class="h4_footer"> <div class="w3cpix"><a href="http://jigsaw.w3.org/css-validator/check/referer"><img src="/asset/vcss" alt="Valid CSS!" /></a> 
+<a href="http://validator.w3.org/check?uri=referer"><img src="/asset/valid-xhtml10" alt="Valid XHTML 1.0 Transitional" /></a> 
+</div> Page rendered <time datetime="1503823564">27th of Aug, 9:46:04</time>, Copyright &copy; 2017 Owen Beresford, <a class="" href="http://owenberesford.me.uk/resource/contact-me#">contact me</a>.  Last modified <time datetime="1485822230">31st of Jan, 0:23:50</time>. <br />
+
+</div>
+</footer>
+</body>
+</html>
