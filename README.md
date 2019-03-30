@@ -6,7 +6,7 @@ It was august 2017, so I assume I was on holiday and sleeping less every one els
 
 I'm not sure this code is any use; principally due to the fact that you need to open winow using JS to be able to close them with JS
 
-ASSERT: here are more docs
+ASSERT: here are more docs [http://owenberesford.me.uk/resource/jQuery-global-logout]
 
 There is test script that shows expected usage (in /test/ surpisngly) 
 
